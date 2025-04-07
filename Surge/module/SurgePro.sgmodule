@@ -125,6 +125,9 @@
 ^https:\/\/(api\.revenuecat\.com|api\.rc-backup\.com)\/.+\/(receipts$|subscribers\/[^/]+$) https://rc-backup.lovebabyforever.workers.dev header
 ^https:\/\/(api\.revenuecat\.com|api\.rc-backup\.com)\/.+\/(receipts$|subscribers\/[^/]+$) https://reven.lovebabyforever.workers.dev header
 
+# > Carrot
+^https:\/\/carrotweather\.herokuapp\.com\/parse\/functions\/findSubscriptionsForUserId$ https://carrot.lovebabyforever.workers.dev header
+
 ###################################### Script ######################################
 
 [Script]
@@ -138,7 +141,7 @@ flightradar24 = type=http-request, pattern=^https?:\/\/mobile\.flightradar24\.co
 Endel = type=http-response,pattern=^https?:\/\/api-production\.endel\.io\/v\d\/call,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/Endel.js
 
 # > Notability
-Notability = type=http-response,pattern=^https?:\/\/notability\.com\/(global|subscriptions),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/notability.js
+Notability = type=http-response,pattern=^https?:\/\/notability\.com\/(global|subscriptions),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/Notability.js
 
 # > Nicegram
 Nicegram = type=http-request,pattern=^https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\w+$,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Nicegram/Script/Nicegram.js,script-update-interval=0
@@ -166,15 +169,12 @@ CamScanner = type=http-response, pattern=^https:\/\/.*\.(intsig\.net|camscanner\
 # > B站字幕繁转中
 bilibili_cc = type=http-response,pattern=^https?:\/\/i.\.hdslb\.com\/bfs\/subtitle\/.+\.json$,requires-body=1,max-size=3145728,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_cc.js,script-update-interval=0
 
-# > Netflix Ranking
-nf_rating.js_request = type=http-request,pattern=^https?:\/\/ios(-.*)?\.prod\.ftl\.netflix\.com\/iosui\/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
-nf_rating.js_response = type=http-response,requires-body=1,pattern=^https?:\/\/ios(-.*)?\.prod\.ftl\.netflix\.com\/iosui\/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
 
 [MITM]
 #skip-server-cert-verify = true
 tcp-connection = true
 h2 = true
-hostname = %APPEND% boxjs.com, api-production.endel.io, mobile.flightradar24.com, ap*.intsig.net, www.xmind.cn, www.xmind.net, restore-access.indream.app, *.baidu.com, api.meiease.cn, lchttpapi.xczim.com, security.wechat.com, weixin110.qq.com, ios-*.prod.ftl.netflix.com, ios.prod.ftl.netflix.com, www.firefox.com.cn, api.*.abema-tv.com, app.biliintl.com, passport.biliintl.com, api.revenuecat.com, api.rc-backup.com, *.hdslb.com, xremit.xcurrency.com, explorer.tratao.com, drive*.quark.cn, notability.com, api.getdailyart.com, www.google.cn, *.camscanner.com, *.intsig.net, api.flexibits.com, acs.m.taobao.com
+hostname = %APPEND% boxjs.com, carrotweather.herokuapp.com, api-production.endel.io, mobile.flightradar24.com, ap*.intsig.net, www.xmind.cn, www.xmind.net, restore-access.indream.app, *.baidu.com, api.meiease.cn, lchttpapi.xczim.com, security.wechat.com, weixin110.qq.com, www.firefox.com.cn, api.*.abema-tv.com, app.biliintl.com, passport.biliintl.com, api.revenuecat.com, api.rc-backup.com, *.hdslb.com, xremit.xcurrency.com, explorer.tratao.com, drive*.quark.cn, notability.com, api.getdailyart.com, www.google.cn, *.camscanner.com, *.intsig.net, api.flexibits.com
 
 
 	

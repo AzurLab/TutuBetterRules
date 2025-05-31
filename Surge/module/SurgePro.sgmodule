@@ -42,37 +42,37 @@
 
 # > Flighttradar 24
 
-{{{S_FLIGHTRADAR24}}} = type=http-request, pattern=^https?://mobile.flightradar24.com/mobile/(user-session|\w{9}), script-path=https://github.com/bunizao/Mirrored/raw/main/Chores/js/flightradar24.js, timeout=60
+{{{S_FLIGHTRADAR24}}}Flighttradar = type=http-request, pattern=^https?://mobile.flightradar24.com/mobile/(user-session|\w{9}), script-path=https://github.com/bunizao/Mirrored/raw/main/Chores/js/flightradar24.js, timeout=60
 
 # > Endel
 
-{{{S_ENDEL}}} = type=http-response, pattern=^https?://api-production.endel.io/v\d/call, requires-body=1, max-size=0, script-path=https://github.com/bunizao/Mirrored/raw/main/Chores/js/Endel.js
+{{{S_ENDEL}}}Endel = type=http-response, pattern=^https?://api-production.endel.io/v\d/call, requires-body=1, max-size=0, script-path=https://github.com/bunizao/Mirrored/raw/main/Chores/js/Endel.js
 
 # > Notability
 
-{{{S_NOTABILITY}}} = type=http-response, pattern=^https?://notability.com/(global|subscriptions), requires-body=1, max-size=0, script-path=https://github.com/bunizao/Mirrored/raw/main/Chores/js/Notability.js
+{{{S_NOTABILITY}}}Notability = type=http-response, pattern=^https?://notability.com/(global|subscriptions), requires-body=1, max-size=0, script-path=https://github.com/bunizao/Mirrored/raw/main/Chores/js/Notability.js
 
 # > DailyArt
 
-{{{S_DAILYART}}} = type=http-response, pattern=^https?://api.getdailyart.com/api/(subscription/verified|auth/login|check-logged), requires-body=true, max-size=3145728, script-path=https://github.com/bunizao/Mirrored/raw/main/Chores/js/DailyArt.js, timeout=60, script-update-interval=0
+{{{S_DAILYART}}}DailyArt = type=http-response, pattern=^https?://api.getdailyart.com/api/(subscription/verified|auth/login|check-logged), requires-body=true, max-size=3145728, script-path=https://github.com/bunizao/Mirrored/raw/main/Chores/js/DailyArt.js, timeout=60, script-update-interval=0
 
 # > xCurrency
 
-{{{S_XCURRENCY}}} = type=http-response, pattern=^https?://(xremit.xcurrency|explorer.tratao).com/api/client/xtool/vip, requires-body=true, max-size=3145728, script-path=https://github.com/bunizao/Mirrored/raw/main/Chores/js/jijianhuilv.js, timeout=60, script-update-interval=0
+{{{S_XCURRENCY}}}xCurrency = type=http-response, pattern=^https?://(xremit.xcurrency|explorer.tratao).com/api/client/xtool/vip, requires-body=true, max-size=3145728, script-path=https://github.com/bunizao/Mirrored/raw/main/Chores/js/jijianhuilv.js, timeout=60, script-update-interval=0
 
 # > CamScanner
 
-{{{S_CAMSCANNER}}} = type=http-response, pattern=^https://.*.(intsig.net|camscanner.com), requires-body=true, max-size=3145728, script-path=https://github.com/bunizao/Mirrored/raw/main/Chores/js/CamScanner.js, timeout=60, script-update-interval=0
+{{{S_CAMSCANNER}}}CamScanner = type=http-response, pattern=^https://.*.(intsig.net|camscanner.com), requires-body=true, max-size=3145728, script-path=https://github.com/bunizao/Mirrored/raw/main/Chores/js/CamScanner.js, timeout=60, script-update-interval=0
 
 ———————————–– Enhance —————————————
 
 # > 解除微信链接限制
 
-{{{S_RM_WECHAT_LINK_RESTRICTIONS}}} = type=http-response, pattern=^https://(weixin110.qq|security.wechat).com/cgi-bin/mmspamsupport-bin/newredirectconfirmcgi?, requires-body=1, max-size=0, script-path=https://github.com/bunizao/Mirrored/raw/main/Chores/js/UnblockURLinWeChat.js
+{{{S_RM_WECHAT_LINK_RESTRICTIONS}}}解除微信链接限制 = type=http-response, pattern=^https://(weixin110.qq|security.wechat).com/cgi-bin/mmspamsupport-bin/newredirectconfirmcgi?, requires-body=1, max-size=0, script-path=https://github.com/bunizao/Mirrored/raw/main/Chores/js/UnblockURLinWeChat.js
 
 # > B站字幕繁转中
 
-{{{S_BILIBILICC}}} = type=http-response, pattern=^https?://i..hdslb.com/bfs/subtitle/.+.json$, requires-body=1, max-size=3145728, script-path=https://github.com/bunizao/Mirrored/raw/main/Chores/js/bilibili_cc.js, script-update-interval=0
+{{{S_BILIBILICC}}}B站字幕繁转中 = type=http-response, pattern=^https?://i..hdslb.com/bfs/subtitle/.+.json$, requires-body=1, max-size=3145728, script-path=https://github.com/bunizao/Mirrored/raw/main/Chores/js/bilibili_cc.js, script-update-interval=0
 
 [MITM]
 tcp-connection = true

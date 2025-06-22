@@ -31,7 +31,3 @@ PROCESS-NAME,uTorrent
 PROCESS-NAME,qbittorrent
 PROCESS-NAME,WebTorrent
 PROCESS-NAME,WebTorrent Helper
-# > nexsub
-DOMAIN-SUFFIX,xvvrkb.lol
-# > qiniup
-DOMAIN-SUFFIX,qiniup.com

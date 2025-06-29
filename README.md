@@ -12,9 +12,9 @@ This documentation is available in several languages:
 
 - [简体中文](README_zh-Hans.md)
 - [繁體中文](README_zh-Hant.md)
-- [English](README_en.md) ← you’re here
-- [日本語](README_ja.md)
-- [Deutsch](README_de.md)
+- [English](README_en.md) ← you’re here
+- [فارسی](README_fa.md)
+- [한국어](README_ko.md)
 
 ## 1 Project Highlights
 

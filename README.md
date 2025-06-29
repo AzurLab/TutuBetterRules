@@ -42,14 +42,13 @@ This documentation is available in several languages:
 
 | Client | Operating Systems | Status |
 |--------|------------------|--------|
-| [Clash](https://github.com/bunizao/TutuBetterRules/blob/tutu/Clash/README.md) | Windows / macOS / Android / OpenWrt | ✅ |
-| [Shadowrocket](https://github.com/bunizao/TutuBetterRules/blob/tutu/Clash/README.md) | iOS | ✅ |
-| [Quantumult X](https://github.com/bunizao/TutuBetterRules/blob/tutu/QuantumultX/README.md) | iOS / iPadOS | ✅ |
-| [Surge](https://github.com/bunizao/TutuBetterRules/blob/tutu/Surge/README.md) | iOS / macOS | ✅ |
+| [Clash](https://github.com/bunizao/TutuBetterRules/blob/tutu/Clash/README.md) | Windows / macOS / Android / OpenWrt | ✅ Supported |
+| [Shadowrocket](https://github.com/bunizao/TutuBetterRules/blob/tutu/Clash/README.md) | iOS | ✅ Supported |
+| [Quantumult X](https://github.com/bunizao/TutuBetterRules/blob/tutu/QuantumultX/README.md) | iOS / ipadOS / tvOS | ✅ Supported|
+| [Surge](https://github.com/bunizao/TutuBetterRules/blob/tutu/Surge/README.md) | iOS / ipadOS / tvOS / macOS | ⭐ Primary |
 | Loon | iOS / iPadOS | 🚧 _in development_ |
 
-Planned support for additional tools will be announced in the Telegram channel.
-
+> **[Surge](https://nssurge.com) is the flagship platform ⭐**—all new rule logic lands here first.
 ---
 
 ## 4 Roadmap

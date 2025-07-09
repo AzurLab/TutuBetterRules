@@ -7,7 +7,7 @@ All rules are meticulously curated, continuously updated, and provided free of c
 > Stay informed about updates and maintenance windows via Telegram: [@hututu00](https://t.me/hututu00)
 
 ---
-## 0 Multilingual README.md
+## Multilingual README.md
 This documentation is available in several languages:
 
 - [简体中文](README_zh-Hans.md)
@@ -16,7 +16,7 @@ This documentation is available in several languages:
 - [فارسی](README_fa.md)
 - [한국어](README_ko.md)
 
-## 1 Project Highlights
+## Project Highlights
 
 | Feature | Description |
 |---------|-------------|
@@ -27,7 +27,7 @@ This documentation is available in several languages:
 
 ---
 
-## 2 Services
+## Services
 
 | Service | URL | Purpose | Status |
 |---------|-----|---------|--------|
@@ -36,7 +36,7 @@ This documentation is available in several languages:
 
 ---
 
-## 3 Supported Clients
+## Supported Clients
 
 > Click a client name to open its dedicated usage guide.
 
@@ -51,7 +51,7 @@ This documentation is available in several languages:
 > **[Surge](https://nssurge.com) is the flagship platform ⭐**—all new rule logic lands here first.
 ---
 
-## 4 Roadmap
+## Roadmap
 
 | Milestone | Status |
 |-----------|--------|
@@ -61,7 +61,7 @@ This documentation is available in several languages:
 
 ---
 
-## 5 Extra Resources
+## Extra Resources
 
 A full list of my side projects—ranging from network utilities to personal tooling—can be found on my blog:
 
@@ -70,7 +70,7 @@ A full list of my side projects—ranging from network utilities to personal too
 
 ---
 
-## 6 Acknowledgements
+## Acknowledgements
 
 Huge thanks (in no particular order) to the following developers and rule authors for their inspiration, feedback, or direct contributions:
 
@@ -82,7 +82,7 @@ Huge thanks (in no particular order) to the following developers and rule author
 
 ---
 
-## 7 Announcements & Policies
+## Announcements & Policies
 
 Project statements are available in multiple languages:
 
@@ -90,7 +90,7 @@ Project statements are available in multiple languages:
 
 > View the full text for any language by clicking the corresponding link above.
 
-## 8 License & Disclaimer
+## License & Disclaimer
 
 - TutuBetterRules is released under the MIT License unless otherwise specified.  
 - All configurations are provided **as-is** for research and educational purposes.  

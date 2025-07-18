@@ -17,3 +17,7 @@ PROCESS-NAME,uTorrent
 PROCESS-NAME,qbittorrent
 PROCESS-NAME,WebTorrent
 PROCESS-NAME,WebTorrent Helper
+
+# > ip check
+DOMAIN,checkip.amazonaws.com
+DOMAIN,ifconfig.me

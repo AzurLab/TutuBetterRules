@@ -19,7 +19,7 @@ DOMAIN-SUFFIX,perplexity.ai
 
 # > Claude
 DOMAIN-SUFFIX,anthropic.com
-DOMAIN-SUFFIX,claude.ai
+DOMAIN-KEYWORD,claude
 
 # > Google
 DOMAIN-SUFFIX,bard.google.com 
